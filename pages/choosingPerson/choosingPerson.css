@@ -1,0 +1,99 @@
+body {
+    background: url(../../assets/choosingPerson/הלבשה.png), rgb(255, 241, 241) -144.515px -0.126px / 118.559% 100.023% no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+#picture{
+    z-index: 2;
+    position: absolute;
+}
+#toGame{
+    border-radius: 69px;
+    background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 0%, rgba(174, 28, 148, 0.19) 15.04%, rgba(157, 54, 174, 0.62) 65.14%, rgba(145, 72, 193, 0.12) 68.68%, rgba(255, 255, 255, 0.15) 93.50%);
+    box-shadow: 0px 0px 21px 0px #0FF;
+    display: inline-flex;
+    padding: 7px 45px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #73DEFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    mix-blend-mode: hard-light;
+}
+.button{
+    margin-left: 1%;
+    color: white;
+    border-radius: 69px;
+    background: linear-gradient(141deg, rgba(255, 255, 255, 0.13) 0%, rgba(174, 28, 148, 0.09) 15.04%, rgba(157, 54, 174, 0.31) 65.14%, rgba(145, 72, 193, 0.06) 68.68%, rgba(255, 255, 255, 0.08) 93.50%);
+    mix-blend-mode: hard-light;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 7px 45px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: rgb(164, 7, 164) solid;
+}
+#submit{
+    margin-left: 45%;
+    margin-top: 1%;
+}
+.button:hover{
+    border-radius: 69px;
+background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 0%, rgba(174, 28, 148, 0.19) 15.04%, rgba(157, 54, 174, 0.62) 65.14%, rgba(145, 72, 193, 0.12) 68.68%, rgba(255, 255, 255, 0.15) 93.50%);
+box-shadow: 0px 0px 21px 0px #0FF;
+display: inline-flex;
+padding: 7px 45px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #73DEFF;
+text-align: center;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+mix-blend-mode: hard-light;
+}
+#buttonss{
+    display: flex;
+    justify-content: end;
+    margin-top: 33%;
+    margin-right: 5%;
+}
+@media screen and (min-width:200px) and (max-width:900px) {
+    body{
+      background: url(../../assets/choosingPerson/מובייל.png) no-repeat center center fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    #buttonss{
+      display: flex;
+      margin-top: 20%;
+      justify-content: center;
+      margin-left: 1%;
+    }
+    #buttons{
+        display: flex;
+        margin-top: 2%;
+        justify-content: center;
+        margin-left: 1%;
+    }
+    }

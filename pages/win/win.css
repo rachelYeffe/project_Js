@@ -1,0 +1,114 @@
+body{
+    background: url(../../assets/win/ניצחון.png) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #home{
+    margin-left: 1%;
+    color: white;
+    border-radius: 69px;
+    background: linear-gradient(141deg, rgba(255, 255, 255, 0.13) 0%, rgba(174, 28, 148, 0.09) 15.04%, rgba(157, 54, 174, 0.31) 65.14%, rgba(145, 72, 193, 0.06) 68.68%, rgba(255, 255, 255, 0.08) 93.50%);
+    mix-blend-mode: hard-light;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 7px 65px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: rgb(164, 7, 164) solid 3px;
+  }
+#home:hover{
+  border-radius: 69px;
+  background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 0%, rgba(174, 28, 148, 0.19) 15.04%, rgba(157, 54, 174, 0.62) 65.14%, rgba(145, 72, 193, 0.12) 68.68%, rgba(255, 255, 255, 0.15) 93.50%);
+  box-shadow: 0px 0px 21px 0px #0FF;
+  display: inline-flex;
+  padding: 7px 65px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #73DEFF;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  mix-blend-mode: hard-light;
+  }
+
+  #game{
+    margin-right:5%;
+    border-radius: 69px;
+    background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 0%, rgba(174, 28, 148, 0.19) 15.04%, rgba(157, 54, 174, 0.62) 65.14%, rgba(145, 72, 193, 0.12) 68.68%, rgba(255, 255, 255, 0.15) 93.50%);
+    box-shadow: 0px 0px 21px 0px #0FF;
+    display: inline-flex;
+    padding: 7px 45px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #73DEFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    mix-blend-mode: hard-light;
+  }
+  #buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 4%;
+    margin-right: 56% ;
+  }
+  #end{
+    display: flex;
+    width: 30%;
+    height: 20%;
+    padding: 0px 3px;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    gap: 17px -136px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+margin-top: 13.5%;
+margin-left: 12%;}
+
+#p1{
+    
+    color: #73DEFF;
+font-family: Rubik;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#p2{
+    color: #0FF;
+font-family: Rubik;
+font-size: 96px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+#p3{
+    width: 673px;
+flex-shrink: 0;
+color: #0FF;
+text-align: right;
+font-family: Rubik;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+#win{
+  display: flex;
+}

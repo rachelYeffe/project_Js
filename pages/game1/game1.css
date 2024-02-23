@@ -1,0 +1,214 @@
+body {
+    background: url(../../assets/game/שלב\ ב.png) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#up {
+    display: flex;
+    margin-top: 1%;
+}
+
+#allclock {
+    display: flex;
+    margin-left: 20px;
+}
+
+#imgclock {
+    height: 103px;
+    width: 112px;
+    z-index: 55;
+    margin-top: -8%;
+    margin-left: -17%;
+
+}
+
+#allstars {
+    display: flex;
+
+}
+
+#imgstars {
+    height: 90px;
+    width: 90px;
+    z-index: 55;
+    margin-left: 80%;
+    margin-top: -40%;
+
+}
+
+.imgstarsblue {
+    height: 33px;
+    width: 33px;
+    margin-top: 2%;
+    /* margin-left: 6%; */
+    z-index: 55;
+}
+#picture{
+    position: absolute;
+    z-index: 10;
+}
+#imgkasda {
+    height: 103px;
+    width: 112px;
+    z-index: 55;
+    margin-top: -10%;
+    margin-left: -17%;
+}
+#star{
+    margin-left: 8%;
+    display: flex;
+}
+#alluser {
+    display: flex;
+    margin-left: 12%;
+    justify-content: end;
+    z-index: 1;
+}
+
+#close {
+
+    width: 18.331px;
+    height: 18.331px;
+   padding-top: 3%;
+   margin-top: 19%;
+
+}
+
+#allclose {
+    margin-top: 0.1%;
+    text-align: center;
+    width: 38.331px;
+    height: 38.331px;
+    flex-shrink: 0;
+    fill: #FFF;
+    border-radius: 36.5px;
+    background: linear-gradient(132deg, rgba(255, 255, 255, 0.25) 0%, rgba(174, 28, 148, 0.19) 30.79%, rgba(157, 54, 174, 0.10) 47.35%, rgba(145, 72, 193, 0.12) 57.56%, rgba(255, 255, 255, 0.15) 78.66%);
+    backdrop-filter: blur(21.5px);
+    border: rgb(164, 7, 164) solid;
+}
+
+#user {
+    padding-top: 2%;
+    z-index: 1;
+    color: #73DEFF;
+    text-align: center;
+    align-items: center;
+    font-family: Rubik;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    mix-blend-mode: hard-light;
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 69px;
+    background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 0%, rgba(174, 28, 148, 0.19) 15.04%, rgba(157, 54, 174, 0.62) 65.14%, rgba(145, 72, 193, 0.12) 68.68%, rgba(255, 255, 255, 0.15) 93.50%);
+    backdrop-filter: blur(32px);
+    border: rgb(164, 7, 164) solid;
+}
+
+#clock {
+    padding-top: 2%;
+    z-index: 1;
+    margin-left: 15%;
+    color: #73DEFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    mix-blend-mode: hard-light;
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 69px;
+    background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 0%, rgba(174, 28, 148, 0.19) 15.04%, rgba(157, 54, 174, 0.62) 65.14%, rgba(145, 72, 193, 0.12) 68.68%, rgba(255, 255, 255, 0.15) 93.50%);
+    backdrop-filter: blur(32px);
+    border: rgb(164, 7, 164) solid;
+}
+
+
+#Stars {
+    z-index: 3;
+    width: 150px;
+    height: 45px;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 69px;
+    background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 0%, rgba(174, 28, 148, 0.19) 15.04%, rgba(157, 54, 174, 0.62) 65.14%, rgba(145, 72, 193, 0.12) 68.68%, rgba(255, 255, 255, 0.15) 93.50%);
+    backdrop-filter: blur(32px);
+    border: rgb(164, 7, 164) solid;
+}
+
+#question {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 12%;
+    line-height: normal;
+}
+
+#ans {
+    margin-left: 27%;
+    margin-right: 6%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answers {
+    color: white;
+    backdrop-filter: blur(32px);
+    border-radius: 69px;
+    background: linear-gradient(141deg, rgba(255, 255, 255, 0.13) 0%, rgba(174, 28, 148, 0.09) 15.04%, rgba(157, 54, 174, 0.31) 65.14%, rgba(145, 72, 193, 0.06) 68.68%, rgba(255, 255, 255, 0.08) 93.50%);
+    mix-blend-mode: hard-light;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    width: 330px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-bottom: 18px;
+    margin-right: 1%;
+    border: rgb(164, 7, 164) solid;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.answers:hover {
+    border-radius: 69px;
+    background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 0%, rgba(174, 28, 148, 0.19) 15.04%, rgba(157, 54, 174, 0.62) 65.14%, rgba(145, 72, 193, 0.12) 68.68%, rgba(255, 255, 255, 0.15) 93.50%);
+    box-shadow: 0px 0px 10px 0px #0FF;
+    width: 330px;
+    height: 30px;
+    padding-top: 5px;
+    margin-bottom: 18px;
+    margin-right: 1%;
+    justify-content: center;
+    align-items: center;
+    color: #73DEFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    mix-blend-mode: hard-light;
+}
